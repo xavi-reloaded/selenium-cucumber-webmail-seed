@@ -1,28 +1,25 @@
-== README
+== SELENIUM CUCUMBER SAMPLE TO DEMONSTRATE WEBMAIL ACCESS
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+*Remember! You must provide email account access*
 
-* Ruby version
+= Installation with IDE (Jetbrains Intellij IDEA)
+* Get gems for the project `sudo bundle install`
+* Create running configuration for the project in Intellij Idea, Ruby: development
+* Run the configuration
+* Check the server on http://0.0.0.0:3000
+* Run the feature files placed in the features folder (left-mouse and run)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+= Installation with console and run
+* Get gems for the project `sudo bundle install`
+* In the project root, run `runFeatures.sh`
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+= To Test Emails
+* Get chrome executable for your SO http://chromedriver.storage.googleapis.com/index.html?path=2.20/ and place it somewhere on your PATH
+* Get firefox executable
+* Use a valid gmail and yahoo account:
+** Change the feature files (gmail_login.feature and yahoo_login.feature) to use a valid account to access to gmail and yahoo
+
