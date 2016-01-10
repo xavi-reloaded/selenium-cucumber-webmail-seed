@@ -3,7 +3,7 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-*Remember! You must provide email account access*
+* Remember! You must provide email account access
 
 = Installation with IDE (Jetbrains Intellij IDEA)
 * Get gems for the project `sudo bundle install`
@@ -21,5 +21,5 @@ application up and running.
 * Get chrome executable for your SO http://chromedriver.storage.googleapis.com/index.html?path=2.20/ and place it somewhere on your PATH
 * Get firefox executable
 * Use a valid gmail and yahoo account:
-** Change the feature files (gmail_login.feature and yahoo_login.feature) to use a valid account to access to gmail and yahoo
+* * Change the feature files (gmail_login.feature and yahoo_login.feature) to use a valid account to access to gmail and yahoo
 
